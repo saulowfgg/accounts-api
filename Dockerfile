@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["nest", "start --watch"]
+CMD ["node", "dist/main"]
